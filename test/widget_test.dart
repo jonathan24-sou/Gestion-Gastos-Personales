@@ -47,4 +47,24 @@ void main() {
 
     expect(find.text('Escribe un importe mayor que cero.'), findsOneWidget);
   });
+
+  testWidgets('editing a budget keeps its category identity fixed', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: BudgetDialog(
+            categories: ExpenseCategory.defaults,
+            existing: const Budget(id: '1', categoryId: 1, amount: 900),
+          ),
+        ),
+      ),
+    );
+
+    final categoryField = tester.widget<DropdownButtonFormField<int>>(
+      find.byType(DropdownButtonFormField<int>),
+    );
+    expect(categoryField.onChanged, isNull);
+  });
 }

@@ -1307,9 +1307,11 @@ class _BudgetDialogState extends State<BudgetDialog> {
                     ),
                   )
                   .toList(),
-              onChanged: (value) {
-                if (value != null) setState(() => _categoryId = value);
-              },
+              onChanged: widget.existing == null
+                  ? (value) {
+                      if (value != null) setState(() => _categoryId = value);
+                    }
+                  : null,
             ),
             const SizedBox(height: 12),
             TextFormField(
