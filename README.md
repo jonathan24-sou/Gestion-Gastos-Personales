@@ -134,4 +134,4 @@ flutter build apk --debug
 
 ## Control de versiones y revisión
 
-El repositorio público mantiene las ramas `main`, `develop`, `feature/gastos`, `feature/login` y `hotfix/budget-category-edit`, con 19 commits significativos. El PR [#1 de `feature/login` hacia `develop`](https://github.com/jonathan24-sou/Gestion-Gastos-Personales/pull/1) incluye la auto-revisión documentada en [`docs/revision-feature-login.md`](docs/revision-feature-login.md). `flutter analyze` y `flutter test` pasan; no se generó APK porque el entorno de desarrollo no cuenta con Android SDK.
+El repositorio público mantiene las ramas `main`, `develop`, `feature/gastos`, `feature/login` y `hotfix/budget-category-edit`, con más de 15 commits significativos. El PR [#1 de `feature/login` hacia `develop`](https://github.com/jonathan24-sou/Gestion-Gastos-Personales/pull/1) incluye la auto-revisión documentada en [`docs/revision-feature-login.md`](docs/revision-feature-login.md) y ya fue integrado. `flutter analyze` y `flutter test` pasan; no se generó APK porque el entorno de desarrollo no cuenta con Android SDK.
