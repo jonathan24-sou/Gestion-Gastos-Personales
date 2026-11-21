@@ -132,8 +132,6 @@ Para generar un APK de depuración:
 flutter build apk --debug
 ```
 
-## Flujo GitHub sugerido para la entrega
+## Control de versiones y revisión
 
-Usa `main` para entregas, `develop` para integración, `feature/login` para autenticación, `feature/gastos` para el CRUD, y `hotfix/<descripción>` para correcciones urgentes. Abre un PR de `feature/login` hacia `develop`, revisa diferencias, validaciones y permisos (la auto-revisión debe quedar descrita en el PR) y luego integra el cambio. Los commits deben describir cambios independientes reales.
-
-Este workspace no tiene un remoto de GitHub configurado. Para entregar el repositorio público, crea el repositorio en tu cuenta y conecta su URL con `git remote add origin <URL>` antes de publicar las ramas y abrir el PR.
+El repositorio público mantiene las ramas `main`, `develop`, `feature/gastos`, `feature/login` y `hotfix/budget-category-edit`, con 19 commits significativos. El PR [#1 de `feature/login` hacia `develop`](https://github.com/jonathan24-sou/Gestion-Gastos-Personales/pull/1) incluye la auto-revisión documentada en [`docs/revision-feature-login.md`](docs/revision-feature-login.md). `flutter analyze` y `flutter test` pasan; no se generó APK porque el entorno de desarrollo no cuenta con Android SDK.

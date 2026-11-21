@@ -1,6 +1,6 @@
-# Auto-revisión propuesta: `feature/login` → `develop`
+# Auto-revisión: `feature/login` → `develop`
 
-**Estado:** auto-revisión local completada; PR remoto pendiente de publicación y creación.
+**Estado:** auto-revisión completada y adjunta al [PR #1](https://github.com/jonathan24-sou/Gestion-Gastos-Personales/pull/1), actualmente abierto.
 
 ## Alcance revisado
 
@@ -24,4 +24,4 @@ Se identificó que cambiar la categoría durante la edición de un presupuesto p
 
 ## Resultado
 
-La ruta local continúa disponible si Auth no está configurado o falla. El error de Auth se presenta en pantalla y no se simula un inicio de sesión exitoso. La ruta solicitada para el PR es `feature/login` hacia `develop`; adjunta esta revisión como auto-revisión.
+La ruta local continúa disponible si Auth no está configurado o falla. El error de Auth se presenta en pantalla y no se simula un inicio de sesión exitoso. La auto-revisión se adjunta al PR #1 de `feature/login` hacia `develop`.
