@@ -1,6 +1,6 @@
 # Mis gastos — MVP Flutter
 
-Aplicación móvil en español para registrar gastos personales, fotografiar tickets, crear límites semanales y revisar el gasto por categoría. Funciona sin conexión; autenticación y sincronización se habilitan con Supabase.
+Aplicación móvil para registrar gastos personales, fotografiar tickets, crear límites semanales y revisar el gasto por categoría. Funciona sin conexión; autenticación y sincronización se habilitan con Supabase.
 
 ## Requisitos
 
